@@ -1,0 +1,42 @@
+.seba-navbar__container {
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.seba-navbar__container__inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seba-navbar__right ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.seba-navbar__right ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  transition: all ease-in-out 0.1s;
+}
+
+.seba-navbar__right ul li a:hover{
+    color: #c41f64;
+}
+
+/* apply styles for medium device */
+@media screen and (max-width: 992px) {
+ 
+}
+
+/* apply styles for small device */
+
+@media screen and (max-width: 767px) {
+ 
+}
