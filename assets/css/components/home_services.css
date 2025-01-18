@@ -1,0 +1,49 @@
+.seba__services__container {
+  background-color: #fff;
+  box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 35px 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.seba__services__container__inner {
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+}
+.seba__service{
+padding: 0px 10px;
+}
+.seba__service img{
+    margin: 0 auto;
+}
+.seba__service p{
+    color: #c41f64;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.servcies__next__btn, .services__prev__btn {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.1);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.services__prev__btn{
+    left: 2px;
+}
+.servcies__next__btn i, .services__prev__btn i {
+    color: #c41f64;
+    font-size: 20px;
+}

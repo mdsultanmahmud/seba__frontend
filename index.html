@@ -17,12 +17,18 @@
     <link rel="stylesheet" href="./assets/css/components/navbar.css" />
     <!-- banner css  -->
     <link rel="stylesheet" href="./assets/css/components/banner.css" />
-
+    <!-- home services css  -->
+    <link rel="stylesheet" href="./assets/css/components/home_services.css" />
     <!-- font awesome icons  -->
     <script
       src="https://kit.fontawesome.com/bc49ce5c52.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- navbar starts here  -->
@@ -53,7 +59,7 @@
             <p>Gulshan</p>
           </div>
           <div class="seba__search__bar">
-            <input type="text" placeholder="Find your service here" autofocus   />
+            <input type="text" placeholder="Find your service here" autofocus />
             <span>
               <i class="fa-solid fa-magnifying-glass"></i>
             </span>
@@ -62,5 +68,48 @@
       </div>
     </section>
     <!-- banner ends here  -->
+
+    <!-- services starts here  -->
+    <section class="seba__services__container seba__container">
+      <div class="swiper-wrapper seba__services__container__inner">
+        <div class="swiper-slide seba__service">
+          <img src="./assets/images/maid_services.png" alt="" />
+          <p>Maid Service</p>
+        </div>
+        <div class="swiper-slide seba__service">
+          <img src="./assets/images/repait.png" alt="" />
+          <p>Applience Repair</p>
+        </div>
+        <div class="swiper-slide seba__service">
+          <img src="./assets/images/cleaning.png" alt="" />
+          <p>Cleaning Solution</p>
+        </div>
+        <div class="swiper-slide seba__service">
+          <img src="./assets/images/beauty.png" alt="" />
+          <p>Beauty & Wellness</p>
+        </div>
+        <div class="swiper-slide seba__service">
+          <img src="./assets/images/mans.png" alt="" />
+          <p>Man's Care & Salon</p>
+        </div>
+        <div class="swiper-slide seba__service">
+          <img src="./assets/images/shipting.png" alt="" />
+          <p>Shipting</p>
+        </div>
+        <div class="swiper-slide seba__service">
+          <img src="./assets/images/all-services.png" alt="" />
+          <p>All Services</p>
+        </div>
+      </div>
+      <div class="servcies__next__btn"><i class="fa-solid fa-chevron-right"></i></div>
+      <div class="services__prev__btn"><i class="fa-solid fa-chevron-left"></i></div>
+    </section>
+
+    <!-- services ends here  -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- slider for services  -->
+    <script src="./assets/js/servicesSlider.js"></script>
   </body>
 </html>
