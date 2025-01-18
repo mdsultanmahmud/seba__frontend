@@ -1,0 +1,74 @@
+.seba__why__choose__us__container {
+  margin: 40px auto;
+}
+
+.seba__why__choose__us__container h3 {
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  margin-left: 40px;
+}
+
+.seba__why__choose__us__container h3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+}
+
+.seba__why__choose__us__container h2 {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.seba__why__choose__us__description {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin: 20px 0;
+}
+.seba__why__choose__us__option {
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px ;
+}
+.seba__why__choose__us__option__img img {
+  margin: 0 auto;
+  width: 80px;
+  /* height: 120px; */
+}
+
+.seba__why__choose__us__option__img p {
+  text-align: center;
+}
+.seba__why__choose__choose__us__image {
+  width: 57%;
+}
+.seba__why__choose__choose__us__image img{
+  width: 100%;
+}
+
+.seba__why__choose__us__numbers__section{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.seba__why__choose__us__number{
+    text-align: center;
+}
+.seba__why__choose__us__number h2{
+    font-size: 40px;
+}
+.seba__why__choose__us__number p{
+    font-size: 16px;
+    opacity: 0.8;
+    font-weight: 500;
+}
