@@ -1,4 +1,5 @@
-const swiper = new Swiper(".seba__services__container", {
+
+const ServicesSlider = new Swiper(".seba__services__container", {
   loop: true,
   autoplay: {
     delay: 3000,

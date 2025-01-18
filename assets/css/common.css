@@ -1,0 +1,66 @@
+.seba__main__slider__container__common {
+  margin: 80px auto;
+  overflow: hidden;
+}
+
+.seba__slider__description__section__common {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.seba__slider__description__section__common p {
+  font-size: 25px;
+  font-weight: 600;
+}
+.seba__slider__description__section__common button {
+  color: #c41f64;
+  font-weight: 500;
+}
+.seba__slider__description__section__common button i {
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.seba__slider__container {
+  margin: 0 20px;
+  position: relative;
+}
+.seba__slider__description img {
+  border-radius: 10px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.seba__slider__description p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.seba__slider__next__btn,
+.seba__slider__prev__btn {
+  position: absolute;
+  top: 50%;
+  right: -18px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.seba__slider__prev__btn {
+  left: -18px;
+}
+.seba__slider__next__btn i,
+.seba__slider__prev__btn i {
+  color: #c41f64;
+  font-size: 20px;
+}
