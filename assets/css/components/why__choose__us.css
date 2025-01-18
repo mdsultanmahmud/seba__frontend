@@ -1,5 +1,6 @@
 .seba__why__choose__us__container {
-  margin: 40px auto;
+  padding: 40px 0px;
+  background-color: #fafbfd;
 }
 
 .seba__why__choose__us__container h3 {
@@ -16,7 +17,7 @@
   left: -40px;
   transform: translateY(-50%);
   width: 30px;
-  height: 2px;
+  height: 1px;
   background-color: #000;
 }
 
@@ -55,14 +56,19 @@
 }
 
 .seba__why__choose__us__numbers__section{
-    margin: 50px 0px;
+    padding: 50px 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    border-color: #f4f5f9;
 }
 
 .seba__why__choose__us__number{
     text-align: center;
+    border-right: 3px solid #fff;
+}
+.seba__why__choose__us__number:last-child{
+    border-right: none;
 }
 .seba__why__choose__us__number h2{
     font-size: 40px;

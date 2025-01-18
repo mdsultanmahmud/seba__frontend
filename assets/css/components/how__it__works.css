@@ -1,0 +1,96 @@
+.seba__how__it__works__container {
+  padding: 50px 0px;
+  background-color: #fff;
+}
+
+.seba__how__it__works__container h3 {
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  margin-left: 40px;
+}
+
+.seba__how__it__works__container h3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 1px;
+  background-color: #000;
+}
+
+.seba__how__it__works__container h2 {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.seba__how__it__works__content {
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+.seba__how__it__works__video iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.seba__how__it__works__text__content {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.seba__how__it__works__text__content .pointer {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #c41f64;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.seba__how__it__works__text__content:nth-child(2) .pointer{
+    position: relative;
+}
+.seba__how__it__works__text__content:nth-child(2) .pointer::before {
+  content: "";
+  position: absolute;
+  bottom:107%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 58px;
+  width: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.seba__how__it__works__text__content:nth-child(2) .pointer::after {
+  content: "";
+  position: absolute;
+  top:107%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 58px;
+  width: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.seba__how__it__works__text__content h4 {
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.seba__how__it__works__text__content p {
+  margin-top: 5px;
+  font-size: 16px;
+  opacity: 0.8;
+}
