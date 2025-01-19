@@ -1,0 +1,107 @@
+.seba__testimonials__container {
+  padding: 40px 0px;
+  background-color: #f4f5f9;
+}
+.seba__testimonials__container__inner {
+}
+.seba__testimonials__container__inner h3 {
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  margin-left: 40px;
+}
+
+.seba__testimonials__container__inner h3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 1px;
+  background-color: #000;
+}
+
+.seba__testimonials__container__inner h2 {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+/* testimonials slider  */
+.seba__testimonails__container {
+  padding: 20px;
+  margin: 40px 0px;
+}
+
+.seba__testimonials__slider {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+  border-left: 10px solid #c41f64;
+  padding: 0 20px;
+}
+.seba__testimonials__content {
+  width: 50%;
+}
+.seba__testimonials__content p {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+  font-style: italic;
+  line-height: 30px;
+}
+.seba__testimonials__content h4 {
+  margin: 15px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.seba__testimonials__content h5 {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.seba__testimonials__video {
+  width: 45% !important;
+  height: 100% !important;
+}
+.seba__testimonials__video iframe {
+  width: 100% !important;
+  height: 300px !important;
+  border-radius: 10px;
+}
+
+.seba__testimonails__container {
+  position: relative;
+  padding: 30px 0px !important;
+}
+.seba__testimonials__btn__container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 5px;
+  left: 50px;
+}
+.seba__testimonials__slider__next__btn,
+.seba__testimonials__slider__prev__btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.seba__testimonials__slider__next__btn i,
+.seba__testimonials__slider__prev__btn i {
+  color: #c41f64;
+  font-size: 20px;
+}
