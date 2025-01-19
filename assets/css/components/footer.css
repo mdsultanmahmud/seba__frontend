@@ -130,3 +130,30 @@
     color: #c41f64;
 }
 
+/* apply styles for medium device */
+@media screen and (max-width: 992px) {
+  .seba__main__footer__container__inner{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.seba__footer__support__img {
+  display: none;
+}
+.seba__footer__support__content h3 {
+  font-size: 22px;
+}
+}
+
+/* apply styles for small device */
+
+@media screen and (max-width: 767px) {
+  .seba__main__footer__container__inner{
+    grid-template-columns: repeat(1, 1fr);
+}
+.seba__footer__support__content h3 {
+  font-size: 18px;
+}
+.seba__footer__copywright{
+  font-size: 15px;
+}
+}

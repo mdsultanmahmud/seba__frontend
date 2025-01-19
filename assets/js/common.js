@@ -109,10 +109,6 @@ const testimonialSwiper = new Swiper("#seba__testimonials__slider__container", {
   loop: true,
   slidesPerView: 1, 
   spaceBetween: 20,
-  autoplay: {
-    delay: 3000,
-  },
-  
   navigation: {
     nextEl: "#seba__testimonials__slider__next__btn",
     prevEl: "#seba__testimonials__slider__prev__btn",

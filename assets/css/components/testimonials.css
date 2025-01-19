@@ -105,3 +105,38 @@
   color: #c41f64;
   font-size: 20px;
 }
+
+
+/* apply styles for medium device */
+@media screen and (max-width: 992px) {
+  .seba__testimonials__container__inner h2 {
+    font-size: 22px;
+   
+  }
+  .seba__testimonails__container {
+    padding: 30px 20px;
+    overflow: visible !important;
+  }
+  
+  .seba__testimonials__btn__container {
+    bottom: -10px;
+  }
+}
+
+/* apply styles for small device */
+
+@media screen and (max-width: 767px) {
+  .seba__testimonials__container__inner h2 {
+    font-size: 18px;
+   
+  }
+  .seba__testimonials__content {
+    width: 100%;
+  }
+  .seba__testimonials__video {
+    display: none;
+  }
+  .seba__testimonials__btn__container {
+    bottom: -20px;
+  }
+}

@@ -37,7 +37,7 @@
   width: 40%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px ;
+  gap: 15px;
 }
 .seba__why__choose__us__option__img img {
   margin: 0 auto;
@@ -51,30 +51,71 @@
 .seba__why__choose__choose__us__image {
   width: 57%;
 }
-.seba__why__choose__choose__us__image img{
+.seba__why__choose__choose__us__image img {
   width: 100%;
 }
 
-.seba__why__choose__us__numbers__section{
-    padding: 50px 0px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    border-color: #f4f5f9;
+.seba__why__choose__us__numbers__section {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  border-color: #f4f5f9;
 }
 
-.seba__why__choose__us__number{
-    text-align: center;
-    border-right: 3px solid #fff;
+.seba__why__choose__us__number {
+  text-align: center;
+  border-right: 3px solid #fff;
 }
-.seba__why__choose__us__number:last-child{
-    border-right: none;
+.seba__why__choose__us__number:last-child {
+  border-right: none;
 }
-.seba__why__choose__us__number h2{
-    font-size: 40px;
+.seba__why__choose__us__number h2 {
+  font-size: 40px;
 }
-.seba__why__choose__us__number p{
-    font-size: 16px;
-    opacity: 0.8;
-    font-weight: 500;
+.seba__why__choose__us__number p {
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+/* apply styles for medium device */
+@media screen and (max-width: 992px) {
+  .seba__why__choose__us__container h2 {
+    font-size: 22px;
+  }
+  .seba__why__choose__us__option__img img {
+    width: 60px;
+    /* height: 120px; */
+  }
+
+  .seba__why__choose__us__option__img p {
+    font-size: 15px;
+  }
+}
+
+/* apply styles for small device */
+
+@media screen and (max-width: 767px) {
+  .seba__why__choose__us__container h2 {
+    font-size: 18px;
+  }
+  .seba__why__choose__us__description {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  .seba__why__choose__us__option {
+    width: 100%;
+  }
+  .seba__why__choose__choose__us__image {
+    width: 100%;
+  }
+  .seba__why__choose__us__number h2 {
+    font-size: 18px;
+  }
+  .seba__why__choose__us__number p {
+    font-size: 15px;
+    font-weight: 400;
+  }
 }

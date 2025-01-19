@@ -12,20 +12,21 @@
   display: flex;
   align-items: center;
 }
-.seba__service{
-padding: 0px 10px;
+.seba__service {
+  padding: 0px 10px;
 }
-.seba__service img{
-    margin: 0 auto;
+.seba__service img {
+  margin: 0 auto;
 }
-.seba__service p{
-    color: #c41f64;
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
+.seba__service p {
+  color: #c41f64;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
 }
 
-.servcies__next__btn, .services__prev__btn {
+.servcies__next__btn,
+.services__prev__btn {
   position: absolute;
   top: 50%;
   right: 2px;
@@ -40,10 +41,11 @@ padding: 0px 10px;
   cursor: pointer;
   z-index: 1;
 }
-.services__prev__btn{
-    left: 2px;
+.services__prev__btn {
+  left: 2px;
 }
-.servcies__next__btn i, .services__prev__btn i {
-    color: #c41f64;
-    font-size: 20px;
+.servcies__next__btn i,
+.services__prev__btn i {
+  color: #c41f64;
+  font-size: 20px;
 }

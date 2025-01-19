@@ -76,3 +76,22 @@
   font-weight: 500;
   border-radius: 0px 10px 10px 0px;
 }
+
+/* apply styles for medium device */
+@media screen and (max-width: 992px) {
+  .seba__app__download__content h2 {
+    font-size: 22px;
+  }
+  
+}
+
+/* apply styles for small device */
+
+@media screen and (max-width: 767px) {
+  .seba__app__image {
+    display: none;
+  }
+  .seba__app__download__content h2 {
+    font-size: 18px;
+  }
+}

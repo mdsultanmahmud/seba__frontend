@@ -94,3 +94,38 @@
   font-size: 16px;
   opacity: 0.8;
 }
+
+/* apply styles for medium device */
+@media screen and (max-width: 992px) {
+  .seba__how__it__works__content {
+    grid-template-columns: 1fr;
+    padding: 0 5px;
+    margin-top: 15px;
+  }
+  .seba__how__it__works__video{
+    height: 300px;
+  }
+  .seba__how__it__works__container h2 {
+    font-size: 22px;
+  }
+}
+
+/* apply styles for small device */
+
+@media screen and (max-width: 767px) {
+  .seba__how__it__works__container h2 {
+    font-size: 18px;
+  }
+  .seba__how__it__works__video{
+    height: 200px;
+  }
+  .seba__how__it__works__text__content {
+    align-items: start;
+  }
+  .seba__how__it__works__text__content:nth-child(2) .pointer::before {
+    display: none;
+  }
+  .seba__how__it__works__text__content:nth-child(2) .pointer::after {
+    display: none;
+  }
+}

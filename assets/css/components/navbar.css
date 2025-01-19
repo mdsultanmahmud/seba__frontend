@@ -26,17 +26,21 @@
   transition: all ease-in-out 0.1s;
 }
 
-.seba-navbar__right ul li a:hover{
-    color: #c41f64;
+.seba-navbar__right ul li a:hover {
+  color: #c41f64;
 }
 
 /* apply styles for medium device */
 @media screen and (max-width: 992px) {
- 
 }
 
 /* apply styles for small device */
 
 @media screen and (max-width: 767px) {
- 
+  .seba-navbar__container {
+    width: 100vw;
+  }
+  .seba-navbar__right ul li a {
+    font-size: 16px;
+  }
 }
