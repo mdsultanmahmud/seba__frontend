@@ -1,0 +1,132 @@
+.seba__footer__container {
+  margin-top: 40px;
+}
+.seba__footer__support__container {
+  /* padding: 20px 0px; */
+  background-color: #f4f5f9;
+}
+.seba__footer__support__container__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 180px;
+  position: relative;
+}
+.seba__footer__support__content h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.seba__footer__support__btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.seba__footer__support__btn button {
+  background-color: #c41f64;
+  border: 1px solid #c41f64;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+.seba__footer__support__btn button:last-child {
+  background-color: transparent;
+  transition: all ease-in-out 0.3s;
+  color: #c41f64;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.seba__footer__support__btn button:last-child:hover {
+  background-color: #c41f64;
+  color: #fff;
+}
+
+.seba__footer__support__img {
+  background-color: red;
+  height: 100%;
+}
+.seba__footer__support__img img {
+  height: 300px !important;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+
+.seba__main__footer__container{
+    padding: 60px 0px;
+    background-color: #ebecf0;
+
+}
+.seba__main__footer__container__inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.seba__footer__content h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.seba__footer__content h5{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.seba__footer__content p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.seba__footer__content a{
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.seba__footer__content a:hover{
+    color: #c41f64;
+}
+
+.seba__footer__content__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.seba__footer__content__btn button{
+    background-color: #c41f64;
+    border: 1px solid #c41f64;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.seba_footer__content__icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.seba_footer__content__icons a i{
+    font-size: 30px !important;
+}
+
+.seba__footer__copywright{
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #dfe0e4;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.seba__footer__copywright span{
+    color: #c41f64;
+}
+

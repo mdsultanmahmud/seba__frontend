@@ -1,0 +1,78 @@
+.seba__app__download__container {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.seba__app__download__container__inner {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.seba__app__image {
+  width: 45%;
+}
+.seba__app__image img {
+  margin: 0 auto;
+  width: 100%;
+  height: 80%;
+}
+
+.seba__app__download__content h3 {
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  margin-left: 40px;
+}
+
+.seba__app__download__content h3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 1px;
+  background-color: #000;
+}
+
+.seba__app__download__content h2 {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+.seba__app__download__content p {
+  font-size: 15px;
+  margin: 15px 0px;
+}
+
+.seba__app__download__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
+.seba__app__download__input input {
+  height: 100%;
+  outline: none;
+  border: none;
+  width: 70%;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 10px 0px 0px 10px;
+}
+.seba__app__download__input button {
+  height: 100%;
+  width: 30%;
+  background-color: #c41f64;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 0px 10px 10px 0px;
+}
